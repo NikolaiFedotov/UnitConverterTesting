@@ -1,4 +1,4 @@
-package com.freeunit.converter.driver;
+package com.freeunitconverter.driver;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
@@ -28,13 +28,13 @@ public class MainDriver {
                 .withIPAddress("127.0.0.1").usingPort(4723).withArgument(GeneralServerFlag.BASEPATH, "/wd/hub/").withTimeout(Duration.ofSeconds(10)).build();
         service.start();
 
-//        LocalConfig.
-//        LocalConfig dev = LocalConfig.Device
+//        com.freeunitconverter.driver.LocalConfig.
+//        com.freeunitconverter.driver.LocalConfig dev = com.freeunitconverter.driver.LocalConfig.Device
         new LocalConfig().getDeviceConfig("pixel5");
         File appDir = new File( "src/main/resources/");
         File app = new File(appDir, "Free Unit Converter.apk");
         DesiredCapabilities cap = new DesiredCapabilities();
-        cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Pixel 5 API 31");
+        cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Copy_of_Automation Pixel 5 API 31");
         // /Users/mfedotov/Job/CDN/AppiumFirst
         cap.setCapability(MobileCapabilityType.APP, app.getAbsolutePath());
         cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, "uiautomator2");

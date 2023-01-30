@@ -1,3 +1,5 @@
+package com.freeunitconverter.driver;
+
 import java.util.HashMap;
 
 public class LocalConfig {

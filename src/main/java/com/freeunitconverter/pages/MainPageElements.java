@@ -1,35 +1,20 @@
-package com.freeunit.converter.pages;
+package com.freeunitconverter.pages;
 
-import com.freeunit.converter.pages.BasePage;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import org.openqa.selenium.WebElement;
 
-public abstract class MainPageElements extends BasePage {
+public abstract class MainPageElements extends BasePage implements IGeneral{
 
-//    @AndroidFindAll({
-//            @AndroidBy(id = "welcomeSubtitleTextView"),
-//            @AndroidBy(xpath = "//*[@text = 'Create Account / Sign In']"),
-//    })
-//    protected WebElement btnInspiration;
-
-    @AndroidFindBy(id = "home")
+    @AndroidFindBy(id = "android:id/home")
     protected WebElement homeMenu;
-
-    @AndroidFindBy(xpath = "//android.widget.TextView[@text = 'Speed' and @resource-id = 'com.unitconverter.freeunitconversioncalculator:id/vrednost_text_view']")
-    protected WebElement speedMenuPoint;
 
     @AndroidFindBy(id = "imageView1")
     protected WebElement valueSelector;
 
-    @AndroidFindBy(xpath = "//android.widget.ListView//android.widget.TextView[@text='Volume']")
-    protected WebElement volumeHomeMenu;
-
     @AndroidFindBy(id = "com.unitconverter.freeunitconversioncalculator:id/unesena_vrednost")
     protected WebElement calcWindow;
 
-    //action_bar_title
-
-    @AndroidFindBy(id = "action_bar_title")
+    @AndroidFindBy(id = "android:id/action_bar_title")
     protected WebElement actionBarTitle;
 
     @AndroidFindBy(id = "lista_velicina")
@@ -39,7 +24,7 @@ public abstract class MainPageElements extends BasePage {
     protected WebElement areaMenuFrame;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Temperature']")
-    protected WebElement temoeratureMenuFrame;
+    protected WebElement temperatureMenuFrame;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Length']")
     protected WebElement lengthMenuFrame;
@@ -53,7 +38,7 @@ public abstract class MainPageElements extends BasePage {
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Volume']")
     protected WebElement volumeMenuFrame;
 
-    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Fuel consumtion']")
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Fuel consumption']")
     protected WebElement fuelConsumptionMenuFrame;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Time']")
@@ -79,22 +64,6 @@ public abstract class MainPageElements extends BasePage {
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Digital Imaging']")
     protected WebElement digitalImagingMenuFrame;
-
-    // , com.unitconverter.freeunitconversioncalculator:id/zarez
-    // 1 com.unitconverter.freeunitconversioncalculator:id/jedinica
-    // 2 com.unitconverter.freeunitconversioncalculator:id/dvojka
-    // 3 com.unitconverter.freeunitconversioncalculator:id/trojka
-    // 4 com.unitconverter.freeunitconversioncalculator:id/cetvorka
-    // 5 com.unitconverter.freeunitconversioncalculator:id/petica
-    // 6 com.unitconverter.freeunitconversioncalculator:id/sestica
-    // 7 com.unitconverter.freeunitconversioncalculator:id/sedmica
-    // 8 com.unitconverter.freeunitconversioncalculator:id/osmica
-    // 9 com.unitconverter.freeunitconversioncalculator:id/devetka
-    // 0 com.unitconverter.freeunitconversioncalculator:id/nula
-    // - com.unitconverter.freeunitconversioncalculator:id/plusminus
-    // c com.unitconverter.freeunitconversioncalculator:id/clear
-    // del com.unitconverter.freeunitconversioncalculator:id/delete
-    // ok com.unitconverter.freeunitconversioncalculator:id/spustitastaturu
 
     @AndroidFindBy(id = "tastatura_rl")
     protected WebElement calcKeyBoard;
