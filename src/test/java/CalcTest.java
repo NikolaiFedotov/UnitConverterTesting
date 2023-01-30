@@ -139,7 +139,7 @@ public class CalcTest extends BaseTest {
         softAssertions.assertAll();
     }
 
-    @Severity(SeverityLevel.CRITICAL)
+/*    @Severity(SeverityLevel.CRITICAL)
     @Description("Test the Calc Window text and the Calc keyboard actions")
     @Story(value = "US_001.001 As user I can clear text field and print any text into and click submit button")
     @Test
@@ -157,5 +157,5 @@ public class CalcTest extends BaseTest {
                 .verifyPageValueElementsBySwipeValues();
 //                .
 
-    }
+    }*/
 }

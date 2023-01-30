@@ -20,3 +20,9 @@ This repository contains UI tests for "Free Unit Converter" Android application.
 
 ## Tests execution
 
+Open any test file and execute via IntelliJ.
+
+## Tests results 
+
+Launch ``allure serve target/allure-results`` in CLI. If you watch that you have many old test results then delete  catalog ``target/allure-results``
+

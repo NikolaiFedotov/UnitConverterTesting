@@ -1,7 +1,6 @@
 import com.freeunitconverter.driver.MainDriver;
 import com.freeunitconverter.helpers.TestListener;
 import com.freeunitconverter.pages.AreaPage;
-import com.freeunitconverter.pages.CalcFramePage;
 import com.freeunitconverter.pages.MainPage;
 import com.freeunitconverter.pages.TemperaturePage;
 import io.appium.java_client.AppiumDriver;

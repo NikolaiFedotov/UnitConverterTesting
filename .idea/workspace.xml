@@ -4,29 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03dcef5e-72c9-44f7-ae4a-a775373430ee" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="03dcef5e-72c9-44f7-ae4a-a775373430ee" name="Changes" comment="commit all files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/freeunitconverter/constants/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freeunitconverter/constants/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/freeunitconverter/driver/LocalConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freeunitconverter/driver/LocalConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/freeunitconverter/driver/MainDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freeunitconverter/driver/MainDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/freeunitconverter/helpers/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freeunitconverter/helpers/TestListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/freeunitconverter/helpers/WebElementHelpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freeunitconverter/helpers/WebElementHelpers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/freeunitconverter/pages/AreaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freeunitconverter/pages/AreaPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/freeunitconverter/pages/AreaPageElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freeunitconverter/pages/AreaPageElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/freeunitconverter/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freeunitconverter/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/freeunitconverter/pages/IGeneral.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freeunitconverter/pages/IGeneral.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/freeunitconverter/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freeunitconverter/pages/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/freeunitconverter/pages/MainPageElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freeunitconverter/pages/MainPageElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/freeunitconverter/pages/TemperaturePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freeunitconverter/pages/TemperaturePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/freeunitconverter/pages/TemperaturePageElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freeunitconverter/pages/TemperaturePageElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/allure.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/allure.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AreaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AreaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CalcTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CalcTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MenuFrameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MenuFrameTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +25,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -150,6 +133,14 @@
       <option name="presentableId" value="Default" />
       <updated>1673790896727</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit all files">
+      <created>1675044881601</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675044881601</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,5 +153,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit all files" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit all files" />
   </component>
 </project>
